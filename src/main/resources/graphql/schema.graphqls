@@ -1,0 +1,18 @@
+type Mutation {
+    createData(input: DataRequest!): DataModel!
+}
+
+type Query {
+    dataById(dataId: ID!): DataModel
+}
+
+input DataRequest {
+    name: String!
+    country: String!
+}
+
+type DataModel {
+    id: String!
+    name: String!
+    country: String!
+}
