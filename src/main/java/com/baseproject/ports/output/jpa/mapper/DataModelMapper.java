@@ -1,7 +1,7 @@
-package com.sportapp.ports.output.jpa.mapper;
+package com.baseproject.ports.output.jpa.mapper;
 
-import com.sportapp.domain.model.DataModel;
-import com.sportapp.ports.output.jpa.entity.DataEntity;
+import com.baseproject.domain.model.DataModel;
+import com.baseproject.ports.output.jpa.entity.DataEntity;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

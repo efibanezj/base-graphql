@@ -1,4 +1,4 @@
-package com.sportapp.ports.output.jpa.entity;
+package com.baseproject.ports.output.jpa.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,9 +1,9 @@
-package com.sportapp.ports.input.controller;
+package com.baseproject.ports.input.controller;
 
-import com.sportapp.domain.model.DataModel;
-import com.sportapp.domain.service.DataService;
-import com.sportapp.ports.input.controller.mapper.DataMapper;
-import com.sportapp.ports.input.controller.request.DataRequest;
+import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.service.DataService;
+import com.baseproject.ports.input.controller.mapper.DataMapper;
+import com.baseproject.ports.input.controller.request.DataRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;

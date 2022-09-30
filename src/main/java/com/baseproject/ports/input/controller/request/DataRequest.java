@@ -1,4 +1,4 @@
-package com.sportapp.ports.input.controller.request;
+package com.baseproject.ports.input.controller.request;
 
 import lombok.Data;
 

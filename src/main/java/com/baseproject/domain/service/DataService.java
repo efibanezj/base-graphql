@@ -1,8 +1,7 @@
-package com.sportapp.domain.service;
+package com.baseproject.domain.service;
 
-import com.sportapp.domain.model.DataModel;
-import com.sportapp.ports.output.DataPort;
-import com.sportapp.ports.output.jpa.entity.DataEntity;
+import com.baseproject.domain.model.DataModel;
+import com.baseproject.ports.output.DataPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

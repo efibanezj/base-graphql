@@ -1,4 +1,4 @@
-package com.sportapp.domain.model;
+package com.baseproject.domain.model;
 
 import lombok.Data;
 

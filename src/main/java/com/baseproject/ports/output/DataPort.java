@@ -1,6 +1,6 @@
-package com.sportapp.ports.output;
+package com.baseproject.ports.output;
 
-import com.sportapp.domain.model.DataModel;
+import com.baseproject.domain.model.DataModel;
 
 public interface DataPort {
 
