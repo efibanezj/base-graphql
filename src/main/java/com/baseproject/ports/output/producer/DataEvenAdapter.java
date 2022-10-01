@@ -17,6 +17,6 @@ public class DataEvenAdapter implements DataEventPort {
     @Override
     public void notifyEvent(DataModel dataModel) {
         Message<DataModel> message = MessageBuilder.withPayload(dataModel).build();
-        streamBridge.send("dataEvent-out-0", message);
+        streamBridge.send("dataCreatedProducer", message);
     }
 }

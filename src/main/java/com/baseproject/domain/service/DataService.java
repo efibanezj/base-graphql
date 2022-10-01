@@ -1,6 +1,7 @@
 package com.baseproject.domain.service;
 
 import com.baseproject.domain.model.DataModel;
+import com.baseproject.ports.output.DataEventPort;
 import com.baseproject.ports.output.DataPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -10,11 +11,12 @@ import org.springframework.stereotype.Service;
 public class DataService {
 
     private final DataPort dataPort;
+    private final DataEventPort eventPort;
 
     public DataModel create(DataModel dataToCreate) {
         //We can validate if the data already exist or another business logic
         DataModel dataCreated = dataPort.createData(dataToCreate);
-
+        eventPort.notifyEvent(dataCreated);
         return dataCreated;
     }
 
