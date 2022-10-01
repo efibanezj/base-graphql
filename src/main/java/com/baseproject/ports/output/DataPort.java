@@ -1,6 +1,6 @@
 package com.baseproject.ports.output;
 
-import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.DataModel;
 
 public interface DataPort {
 

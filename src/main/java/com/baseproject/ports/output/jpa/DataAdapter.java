@@ -1,6 +1,6 @@
 package com.baseproject.ports.output.jpa;
 
-import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.DataModel;
 import com.baseproject.ports.output.jpa.mapper.DataModelMapper;
 import com.baseproject.ports.output.DataPort;
 import com.baseproject.ports.output.jpa.entity.DataEntity;

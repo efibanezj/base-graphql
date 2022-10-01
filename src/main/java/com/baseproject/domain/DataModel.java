@@ -1,4 +1,4 @@
-package com.baseproject.domain.model;
+package com.baseproject.domain;
 
 import lombok.Data;
 

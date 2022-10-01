@@ -1,6 +1,6 @@
 package com.baseproject.ports.output.producer;
 
-import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.DataModel;
 import com.baseproject.ports.output.DataEventPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.stream.function.StreamBridge;

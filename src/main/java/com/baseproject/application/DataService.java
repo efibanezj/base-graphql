@@ -1,6 +1,6 @@
-package com.baseproject.domain.service;
+package com.baseproject.application;
 
-import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.DataModel;
 import com.baseproject.ports.output.DataEventPort;
 import com.baseproject.ports.output.DataPort;
 import lombok.RequiredArgsConstructor;

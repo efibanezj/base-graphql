@@ -1,6 +1,6 @@
 package com.baseproject.ports.input.consumer;
 
-import com.baseproject.domain.model.DataModel;
+import com.baseproject.domain.DataModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
